@@ -1,7 +1,12 @@
 aid: emerson-electric
-url: https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.emerson-electric.com
+description: >-
+  Emerson Electric is a global technology and engineering company that provides innovative
+  solutions for customers in industrial, commercial, and consumer markets through
+  its automation solutions and commercial and residential solutions businesses.
