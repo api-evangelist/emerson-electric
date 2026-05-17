@@ -11,7 +11,7 @@ description: >-
   public APIs, developer resources, and machine-readable artifacts associated
   with Emerson Electric.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-type: Contract
+kind: contract
 tags:
   - Fortune 500
   - Automation
