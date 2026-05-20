@@ -27,6 +27,10 @@ access: 3rd-Party
 position: Consuming
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/EmersonElectricCo
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/emerson
   - name: Website
     url: https://www.emerson.com/
     type: Website
