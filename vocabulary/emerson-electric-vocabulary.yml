@@ -1,0 +1,160 @@
+name: Emerson Electric Industrial Automation Vocabulary
+description: >-
+  Key terms and concepts from Emerson Electric's industrial automation, process
+  control, and measurement instrumentation portfolio, spanning DeltaV, Fisher,
+  Rosemount, Micro Motion, ASCO, and related brands.
+version: "1.0.0"
+terms:
+  - term: DCS
+    definition: >-
+      Distributed Control System — an automated control system distributed
+      across multiple controllers or nodes to manage continuous industrial
+      processes such as refining, chemical production, or power generation.
+    tags:
+      - automation
+      - process-control
+      - DeltaV
+
+  - term: PLC
+    definition: >-
+      Programmable Logic Controller — a ruggedised digital computer used for
+      automation of discrete manufacturing processes, machine functions, or any
+      activity requiring high-reliability real-time control.
+    tags:
+      - automation
+      - discrete-manufacturing
+
+  - term: HART
+    definition: >-
+      Highway Addressable Remote Transducer — a digital communication protocol
+      superimposed on the 4–20 mA analog signal used by field instruments,
+      enabling two-way digital communication with smart transmitters and
+      sensors.
+    tags:
+      - protocol
+      - instrumentation
+      - field-device
+
+  - term: Foundation Fieldbus
+    definition: >-
+      An all-digital, two-way, multi-drop communications protocol used in
+      industrial automation to connect field instruments to control systems,
+      allowing devices to carry out control functions at the field level.
+    tags:
+      - protocol
+      - instrumentation
+      - fieldbus
+
+  - term: NAMUR NE 107
+    definition: >-
+      An industry standard defining four status signals for field devices —
+      Failure, Function Check, Out of Specification, and Maintenance Required —
+      enabling uniform diagnostic reporting from instruments to control systems.
+    tags:
+      - standard
+      - diagnostics
+      - instrumentation
+
+  - term: Asset Management
+    definition: >-
+      Software-based management of field instruments and plant assets throughout
+      their lifecycle, including configuration, calibration records, diagnostic
+      data, and maintenance history (e.g., Emerson's AMS Device Manager).
+    tags:
+      - software
+      - asset-lifecycle
+      - maintenance
+
+  - term: Process Variable (PV)
+    definition: >-
+      The physical quantity being measured or controlled in a process loop, such
+      as temperature, pressure, level, or flow rate. Reported by a transmitter
+      or sensor and compared to a setpoint by the controller.
+    tags:
+      - measurement
+      - process-control
+
+  - term: Control Valve
+    definition: >-
+      A power-operated device that modulates fluid flow in a process pipe in
+      response to a signal from a controller. Fisher brand valves are a leading
+      example within Emerson's Final Control segment.
+    tags:
+      - final-control
+      - Fisher
+      - valve
+
+  - term: Coriolis Flow Meter
+    definition: >-
+      A type of mass flow meter that measures flow by detecting the effect of
+      a flowing fluid on a vibrating tube. Emerson's Micro Motion brand is a
+      leading supplier of Coriolis meters for custody-transfer and process
+      applications.
+    tags:
+      - measurement
+      - flow
+      - Micro-Motion
+
+  - term: OPC UA
+    definition: >-
+      Open Platform Communications Unified Architecture — a machine-to-machine
+      communication protocol for industrial automation that provides secure,
+      platform-independent data exchange between sensors, controllers, and
+      enterprise systems. Widely adopted across Emerson's automation portfolio.
+    tags:
+      - protocol
+      - interoperability
+      - IIoT
+
+  - term: SIS
+    definition: >-
+      Safety Instrumented System — an independent system of sensors, logic
+      solvers, and final control elements designed to bring a process to a safe
+      state when pre-determined conditions are violated, reducing risk to people,
+      equipment, and the environment.
+    tags:
+      - safety
+      - process-control
+      - IEC-61511
+
+  - term: SCADA
+    definition: >-
+      Supervisory Control and Data Acquisition — a system architecture using
+      computers, networked data communications, and graphical HMIs to provide
+      supervisory-level management of a distributed industrial process or
+      infrastructure (e.g., pipelines, utilities).
+    tags:
+      - automation
+      - supervisory-control
+      - remote-monitoring
+
+  - term: Instrument Tag
+    definition: >-
+      A unique alphanumeric identifier assigned to a field instrument following
+      ISA-5.1 conventions (e.g., FT-101 for Flow Transmitter on loop 101).
+      Used consistently across P&IDs, control systems, and asset databases.
+    tags:
+      - instrumentation
+      - ISA
+      - identification
+
+  - term: Loop Tuning
+    definition: >-
+      The process of adjusting the PID controller parameters (proportional,
+      integral, derivative gain) to achieve stable, responsive control of a
+      process variable. Emerson's DeltaV Tune automates this analysis.
+    tags:
+      - process-control
+      - PID
+      - DeltaV
+
+  - term: IIoT
+    definition: >-
+      Industrial Internet of Things — the application of IoT technologies
+      (sensors, connectivity, cloud analytics) to industrial settings to
+      enable predictive maintenance, remote monitoring, and operational
+      efficiency improvements across Emerson's product portfolio.
+    tags:
+      - IIoT
+      - connectivity
+      - digital-transformation
