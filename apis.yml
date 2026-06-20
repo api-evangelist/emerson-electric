@@ -10,7 +10,7 @@ description: >-
   automotive, data centers, mining, and marine. This repository captures the
   public APIs, developer resources, and machine-readable artifacts associated
   with Emerson Electric.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 kind: contract
 tags:
   - Fortune 500
