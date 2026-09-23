@@ -1,7 +1,9 @@
 ---
 title: Is Emerson Electric's (EMR) New AI Advisor Transforming ...
 url: https://finance.yahoo.com/news/emerson-electrics-emr-ai-advisor-125844141.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Emerson Electric" press release artificial intelligence'
 position: 2
 source: serpapi-google
