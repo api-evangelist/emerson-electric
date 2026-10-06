@@ -43,12 +43,14 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 access: 3rd-Party
 position: Consuming
 apis: []
 common:
+  - url: https://www.emerson.com/en/corporate/insights
+    type: Blog
   - type: DomainSecurity
     url: security/emerson-electric-domain-security.yml
   - type: GitHubOrganization
