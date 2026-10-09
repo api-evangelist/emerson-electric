@@ -1,0 +1,29 @@
+# Front Door AI Index — emerson-electric — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: emerson-electric
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: www.emerson.com
+  final_host: www.emerson.com
+  ownership: own
+  owner: emerson-electric
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 5
+  band: 4
+  band_label: moderate
+  host_score: 5
+  density: 6.19
+  words: 808
+  tiers:
+    agentic: 0
+    core: 5
+    model: 0
+  ambiguous: 20
+  top_terms:
+    automation: 20
+    AI: 5
