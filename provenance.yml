@@ -5,8 +5,20 @@ artifacts:
   agentic-access/emerson-electric-agentic-access.yml:
     method: generated
     evidence: declared in the artifact
+  ai-preferences/emerson-electric-ai-preferences.yml:
+    method: harvested
+    evidence: declared in the artifact
   authentication/emerson-electric-authentication.yml:
     method: derived
+    evidence: declared in the artifact
+  certification/observations-2026-11-11.jsonl:
+    method: unknown
+    evidence: no authorship recorded
+  certification/status.yml:
+    method: unknown
+    evidence: no authorship recorded
+  compliance/emerson-electric-compliance.yml:
+    method: harvested
     evidence: declared in the artifact
   conformance/emerson-electric-conformance.yml:
     method: derived
@@ -14,8 +26,14 @@ artifacts:
   conventions/emerson-electric-conventions.yml:
     method: searched
     evidence: declared in the artifact
+  data-license/emerson-electric-data-license.yml:
+    method: harvested
+    evidence: declared in the artifact
   data-model/emerson-electric-data-model.yml:
     method: derived
+    evidence: declared in the artifact
+  eligibility/emerson-electric-eligibility.yml:
+    method: harvested
     evidence: declared in the artifact
   errors/emerson-electric-problem-types.yml:
     method: derived
@@ -27,6 +45,9 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   heartbeat/2026-11-06.yml:
+    method: unknown
+    evidence: no authorship recorded
+  heartbeat/2026-11-13.yml:
     method: unknown
     evidence: no authorship recorded
   hosts/emerson-electric-hosts.yml:
@@ -50,7 +71,7 @@ artifacts:
   kin/checks-2026-10-23T222754.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
-  kin/checks-2026-11-02T082323.yml:
+  kin/checks-2026-11-06T143934.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-23T000603.yml:
@@ -116,6 +137,9 @@ artifacts:
   kin/score-2026-11-02T082323.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-11-06T143934.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   mcp/emerson-electric-mcp.yml:
     method: derived
     evidence: declared in the artifact
@@ -148,6 +172,9 @@ artifacts:
   press/2026-05-25-05-data-and-digital-totalenergies-and-emerson-sign-a-strategic.md:
     method: unknown
     evidence: no authorship recorded
+  privacy/emerson-electric-privacy-policy.yml:
+    method: harvested
+    evidence: declared in the artifact
   rate-limits/emerson-electric-rate-limits.yml:
     method: unknown
     evidence: no authorship recorded
@@ -178,6 +205,9 @@ artifacts:
   skills/emerson-electric-lookup-device-by-serial-number.md:
     method: unknown
     evidence: no authorship recorded
+  terms/emerson-electric-terms-of-service.yml:
+    method: harvested
+    evidence: declared in the artifact
   vendors/emerson-electric-vendors.yml:
     method: unknown
     evidence: no authorship recorded
